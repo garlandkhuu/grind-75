@@ -1,0 +1,30 @@
+{
+  "name": "grind-75",
+  "version": "1.0.0",
+  "description": "A collection of Leetcode problems and their solutions.",
+  "scripts": {
+    "build-sass": "sass ./src/sass/styles.scss ./src/css/styles.css",
+    "sass-watch": "sass --no-source-map --watch ./src/sass/styles.scss ./src/css/styles.css",
+    "nodemon-watch": "nodemon server.js -e *",
+    "start": "node .",
+    "dev": "npm-run-all --parallel sass-watch nodemon-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garlandkhuu/grind-75.git"
+  },
+  "author": "Garland Khuu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garlandkhuu/grind-75/issues"
+  },
+  "homepage": "https://github.com/garlandkhuu/grind-75#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "marked": "^4.1.0",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.54.9"
+  }
+}

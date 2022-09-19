@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "PT Sans Caption";
+  src: url("../fonts/PTSansCaption-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PT Sans Caption";
+  src: url("../fonts/PTSansCaption-Bold.ttf");
+  font-weight: bold;
+}
+body {
+  font-size: 18px;
+  font-family: "PT Sans Caption";
+}
